@@ -1,1 +1,0 @@
-#post = posts.get(post_id)
