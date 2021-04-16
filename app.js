@@ -14,7 +14,7 @@ const findOrCreate = require("mongoose-findorcreate");
 
 const app = express();
 
-app.use(express.static(__dirname + "/Public"));
+app.use(express.static("public"));
 
 app.set("view engine","ejs");
 app.use(bodyParser.urlencoded({urlencoded: true}));
